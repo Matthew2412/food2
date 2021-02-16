@@ -17,10 +17,13 @@ const ResultsShowScreen = ({navigation}) =>{
     if(!result){
         return null;
     }
+    console.log(result.hours[0].is_open_now);
 
     return (
-        <View>
-            <Text>{result.name}</Text>
+        <View style={styles.viewStyle}>
+            <Text style={styles.nameTextStyle}>{result.name}</Text>
+            <Text style={styles.locationStyle}>{result.location.country} , {result.location.city} , {result.location.address1}</Text>
+            {(result.hours[0].is_open_now ? <Text style={styles.openStyle}>Open now !</Text> : <Text style={styles.closedStyle}> Closed now ! </Text>) }
             <FlatList
              data={result.photos}
              keyExtractor={(photo) => photo}
@@ -35,8 +38,29 @@ const ResultsShowScreen = ({navigation}) =>{
 const styles = StyleSheet.create({
     imageStyle: {
     height : 200,
-    width : 300
+    width : 300,
+    marginBottom : 10
+    },
+    locationStyle : {
+    marginBottom: 20
+    },
+    nameTextStyle:{
+    fontSize:18,
+    fontWeight: 'bold'
+    },
+    viewStyle : {
+    flexDirection: 'column',
+    marginLeft: 15
+    },
+    closedStyle:{
+    color:'red',
+    marginBottom : 10
+    },
+    openStyle:{
+    color:'green',
+    marginBottom : 10
     }
+
 });
 
 export default ResultsShowScreen;

@@ -10,9 +10,11 @@ ResultsShow: ResultsShowScreen
 }, {
     initialRouteName: 'Search' ,
     defaultNavigationOptions : {
-        title : 'BusinessSearch'
-    }
 
-});
+     headerTitleStyle: { alignSelf: 'center' },
+     title : 'Find your restaurant'
+
+
+}});
 
 export default createAppContainer(navigator);
