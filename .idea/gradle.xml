@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/@react-native-community/cli-platform-android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -11,8 +13,11 @@
             <option value="$PROJECT_DIR$/node_modules/@react-native-community/cli-platform-android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/@react-native-community/masked-view/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -21,8 +26,11 @@
             <option value="$PROJECT_DIR$/node_modules/@react-native-community/masked-view/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/@unimodules/core" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -31,8 +39,11 @@
             <option value="$PROJECT_DIR$/node_modules/@unimodules/core" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/@unimodules/react-native-adapter/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -41,8 +52,11 @@
             <option value="$PROJECT_DIR$/node_modules/@unimodules/react-native-adapter/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/expo-application/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -51,8 +65,11 @@
             <option value="$PROJECT_DIR$/node_modules/expo-application/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/expo-constants/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -61,8 +78,11 @@
             <option value="$PROJECT_DIR$/node_modules/expo-constants/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/expo-constants/scripts" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -71,8 +91,11 @@
             <option value="$PROJECT_DIR$/node_modules/expo-constants/scripts" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/expo-error-recovery/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -81,8 +104,11 @@
             <option value="$PROJECT_DIR$/node_modules/expo-error-recovery/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/expo-file-system/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -91,8 +117,11 @@
             <option value="$PROJECT_DIR$/node_modules/expo-file-system/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/expo-font/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -101,8 +130,11 @@
             <option value="$PROJECT_DIR$/node_modules/expo-font/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/expo-keep-awake/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -111,8 +143,11 @@
             <option value="$PROJECT_DIR$/node_modules/expo-keep-awake/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/expo-linear-gradient/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -121,8 +156,11 @@
             <option value="$PROJECT_DIR$/node_modules/expo-linear-gradient/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/expo-location/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -131,8 +169,11 @@
             <option value="$PROJECT_DIR$/node_modules/expo-location/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/expo-permissions/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -141,8 +182,11 @@
             <option value="$PROJECT_DIR$/node_modules/expo-permissions/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/expo-secure-store/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -151,8 +195,11 @@
             <option value="$PROJECT_DIR$/node_modules/expo-secure-store/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/expo-sqlite/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -161,8 +208,11 @@
             <option value="$PROJECT_DIR$/node_modules/expo-sqlite/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/react-native" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -171,8 +221,11 @@
             <option value="$PROJECT_DIR$/node_modules/react-native" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/react-native-gesture-handler/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -181,8 +234,11 @@
             <option value="$PROJECT_DIR$/node_modules/react-native-gesture-handler/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/react-native-reanimated/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -191,8 +247,11 @@
             <option value="$PROJECT_DIR$/node_modules/react-native-reanimated/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/react-native-safe-area-context/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -201,8 +260,11 @@
             <option value="$PROJECT_DIR$/node_modules/react-native-safe-area-context/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/react-native-screens/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -211,8 +273,11 @@
             <option value="$PROJECT_DIR$/node_modules/react-native-screens/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/unimodules-app-loader/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -221,8 +286,11 @@
             <option value="$PROJECT_DIR$/node_modules/unimodules-app-loader/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/unimodules-barcode-scanner-interface/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -231,8 +299,11 @@
             <option value="$PROJECT_DIR$/node_modules/unimodules-barcode-scanner-interface/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/unimodules-camera-interface/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -241,8 +312,11 @@
             <option value="$PROJECT_DIR$/node_modules/unimodules-camera-interface/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/unimodules-constants-interface/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -251,8 +325,11 @@
             <option value="$PROJECT_DIR$/node_modules/unimodules-constants-interface/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/unimodules-face-detector-interface/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -261,8 +338,11 @@
             <option value="$PROJECT_DIR$/node_modules/unimodules-face-detector-interface/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/unimodules-file-system-interface/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -271,8 +351,11 @@
             <option value="$PROJECT_DIR$/node_modules/unimodules-file-system-interface/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/unimodules-font-interface/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -281,8 +364,11 @@
             <option value="$PROJECT_DIR$/node_modules/unimodules-font-interface/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/unimodules-image-loader-interface/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -291,8 +377,11 @@
             <option value="$PROJECT_DIR$/node_modules/unimodules-image-loader-interface/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/unimodules-permissions-interface/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -301,8 +390,11 @@
             <option value="$PROJECT_DIR$/node_modules/unimodules-permissions-interface/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/unimodules-sensors-interface/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -311,8 +403,11 @@
             <option value="$PROJECT_DIR$/node_modules/unimodules-sensors-interface/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/node_modules/unimodules-task-manager-interface/android" />
         <option name="gradleJvm" value="#JAVA_HOME" />
@@ -321,6 +416,8 @@
             <option value="$PROJECT_DIR$/node_modules/unimodules-task-manager-interface/android" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
