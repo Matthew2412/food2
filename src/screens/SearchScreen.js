@@ -1,31 +1,27 @@
-import React , {useState} from 'react';
+import React , {useState } from 'react';
 import {View , Text , StyleSheet } from 'react-native';
 import SearchBar from '../components/SearchBar';
 import yelp from '../api/yelp';
+import useRestaurants from '../hooks/useRestaurants';
+import ResultsList from '../components/ResultsList';
+
 
 const SearchScreen= () => {
     const[term,setTerm] = useState('');
-    const[restaurants , setRestaurants] = useState([]);
-
-    const searchApi = async () =>{
-       const response = await yelp.get('/search', {
-        params: {
-            limit:50,
-            term: term,
-            location: 'san jose'
-        }
-       });
-       setRestaurants(response.data.businesses)
-    };
+    const[searchApi,restaurants,errorMessage] = useRestaurants();
 
     return (
         <View>
-        <SearchBar term={term}
-         onTermChange= {newTerm => setTerm(newTerm)}
-         onTermSubmit={() => searchApi()}
-         />
-            <Text>SearchScreen</Text>
-            <Text>We have found {restaurants.length} restaurants</Text>
+            <SearchBar term={term}
+             onTermChange= {newTerm => setTerm(newTerm)}
+             onTermSubmit={() => searchApi(term)}
+             />
+                {errorMessage ? <Text>{errorMessage}</Text> : null}
+                <Text>We have found {restaurants.length} restaurants</Text>
+
+            <ResultsList title="Cost Effective" />
+            <ResultsList title="Bit Pricier"/>
+            <ResultsList title="Big Spender"/>
         </View>
     );
 }
