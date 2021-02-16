@@ -20,7 +20,7 @@ export default() => {
        }
     };
      useEffect(() => {
-        searchApi('pasta');
+        searchApi('ocean');
         }, []);
 
         return [searchApi,restaurants,errorMessage];
