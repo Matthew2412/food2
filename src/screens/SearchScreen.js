@@ -8,7 +8,14 @@ import ResultsList from '../components/ResultsList';
 
 const SearchScreen= () => {
     const[term,setTerm] = useState('');
-    const[searchApi,restaurants,errorMessage] = useRestaurants();
+    const[searchApi,results,errorMessage] = useRestaurants();
+
+    const filterResultsByPrice = (price) => {
+        // price === '$' || '$$'
+        return results.filter(result => {
+            return result.price ===price;
+        })
+    };
 
     return (
         <View>
@@ -17,11 +24,11 @@ const SearchScreen= () => {
              onTermSubmit={() => searchApi(term)}
              />
                 {errorMessage ? <Text>{errorMessage}</Text> : null}
-                <Text>We have found {restaurants.length} restaurants</Text>
+                <Text>We have found {results.length} restaurants</Text>
 
-            <ResultsList title="Cost Effective" />
-            <ResultsList title="Bit Pricier"/>
-            <ResultsList title="Big Spender"/>
+            <ResultsList results={filterResultsByPrice('$')} title="Cost Effective" />
+            <ResultsList results={filterResultsByPrice('$$')} title="Bit Pricier"/>
+            <ResultsList results={filterResultsByPrice('$$$')} title="Big Spender"/>
         </View>
     );
 }
